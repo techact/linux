@@ -32,3 +32,10 @@ With ubuntu user
 ```
 rsync -avu -e "scp -i /path/to/key.pem -o StrictHostKeyChecking=no" --rsync-path="sudo rsync" source_file ubuntu@hostname:/destination/path/
 ```
+Remote ssh commands
+```sh
+ssh -i /path/to/key.pem root@hostname 'uptime'
+
+ssh -i /path/to/key.pem root@hostname "free -m; df -h"
+```
+```
