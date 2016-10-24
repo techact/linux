@@ -2,7 +2,7 @@
 
 ## SSH
 
-##### ssh with user name and password
+###### ssh with user name and password
 
 ssh user@hostname
 
