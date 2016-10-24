@@ -5,7 +5,7 @@
 ###### ssh with user name and password
 
 ssh user@hostname
-```sh
+```bash
 ssh root@xxx.xxx.xxx.xxx
 ```
 ###### Remote ssh commands (AWS EC2)
