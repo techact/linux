@@ -27,7 +27,7 @@ scp -i /path/to/key.pem -r soruce_directory user@hostname:/destination/directory
 With root user
 ```sh
 rsync -avu -e "scp -i /path/to/key.pem -o StrictHostKeyChecking=no" source_file root@hostname:/destination/path/
-```sh
+```
 With ubuntu user
 ```sh
 rsync -avu -e "scp -i /path/to/key.pem -o StrictHostKeyChecking=no" --rsync-path="sudo rsync" source_file ubuntu@hostname:/destination/path/
@@ -36,7 +36,6 @@ Remote ssh commands
 ```sh
 ssh -i /path/to/key.pem root@hostname 'uptime'
 ssh -i /path/to/key.pem root@hostname "free -m; df -h"
-```
 ```
 
 # Mysql changing data dir from /var/log/mysql to /data/lib/mysql
