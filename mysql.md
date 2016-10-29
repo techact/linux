@@ -24,10 +24,7 @@ service mysql stop
 ### 4. Copy the existing data directory (default located in /var/lib/mysql) using the following command:
 '''
 cp -R -p /var/lib/mysql /data/lib/mysql
-'''
-'''
 vi /etc/mysql/my.cnf
-'''
 datadir = /var/lib/mysql
 to
 datadir = /data/lib/mysql
