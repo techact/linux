@@ -29,7 +29,7 @@ datadir = /var/lib/mysql
 to
 datadir = /data/lib/mysql
 ```
-sudo vi /etc/apparmor.d/usr.sbin.mysqld
+### 5. Edit vi /etc/apparmor.d/usr.sbin.mysqld
 change from 
 ```
   /var/lib/mysql/ r,
@@ -41,7 +41,7 @@ change from
   /data/lib/mysql/** rwk,
 
 ```
-Restart the AppArmor profiles with the command:
+### 6. Restart the AppArmor profiles with the command:
 ```
 /etc/init.d/apparmor reload
 /etc/init.d/mysql restart
