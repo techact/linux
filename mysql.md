@@ -1,4 +1,4 @@
-# Mysql changing data dir from /var/log/mysql to /data/lib/mysql
+## Mysql changing data dir from /var/log/mysql to /data/lib/mysql
 
 ### Ubuntu distribution
 
