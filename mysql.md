@@ -6,7 +6,7 @@
 ```
 apt-get install mysql-server
 ```
-####### While installing set the root password (and remember).
+###### While installing set the root password (and remember).
 
 ### 2. Check the default data directory path using the below command
 ```
