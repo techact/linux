@@ -89,3 +89,15 @@ Restart the AppArmor profiles with the command:
 /etc/init.d/apparmor reload
 /etc/init.d/mysql restart
 ```
+
+### Install openjdk on ubuntu 14.04
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update 
+sudo apt-get install openjdk-8-jdk
+sudo update-alternatives --config java
+Type in a number to select a Java version.
+
+set default java version
+openjdk version "1.8.0_111"
+OpenJDK Runtime Environment (build 1.8.0_111-8u111-b14-3~14.04.1-b14)
+OpenJDK 64-Bit Server VM (build 25.111-b14, mixed mode)
