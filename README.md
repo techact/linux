@@ -103,3 +103,11 @@ openjdk version "1.8.0_111"
 OpenJDK Runtime Environment (build 1.8.0_111-8u111-b14-3~14.04.1-b14)
 OpenJDK 64-Bit Server VM (build 25.111-b14, mixed mode)
 ```
+###For openjdk 7
+```
+echo "export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/"" >> ~/.bashrc
+source ~/.bashrc
+
+echo $JAVA_HOME
+/usr/lib/jvm/java-7-openjdk-amd64/
+```
