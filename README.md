@@ -115,5 +115,13 @@ echo $JAVA_HOME
 ```
 1. tac file.txt
 2. vi file.txt => :g/^/m0
+3. cat file.txt | awk '{print NR" "$0}' | sort -k1 -n -r | sed 's/^[^ ]* //g'
+4. awk '{a[i++]=$0} END {for (j=i-1; j>=0;) print a[j--] }' file.txt
+
+sed '1!G;h;$!d' file.txt
+cat file.txt  | awk '{print NR" "$0}' | sort -nr
+
+http://www.pement.org/awk/awk1line.txt
+http://backreference.org/2010/12/19/print-lines-in-reverse-order/
 ```
 
