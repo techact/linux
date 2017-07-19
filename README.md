@@ -111,3 +111,11 @@ source ~/.bashrc
 echo $JAVA_HOME
 /usr/lib/jvm/java-7-openjdk-amd64/
 ```
+### 
+```
+###  For printing descending order from a file
+```
+1. tac file.txt
+2. vi file.txt => :g/^/m0
+```
+

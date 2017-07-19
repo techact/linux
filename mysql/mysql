@@ -3,7 +3,7 @@
 ### Ubuntu distribution
 
 ### 1. Install mysql if not install
-```
+```bash
 apt-get install mysql-server
 ```
 ####### While installing set the root password (and remember).
