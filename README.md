@@ -38,7 +38,7 @@ ssh -i /path/to/key.pem root@hostname 'uptime'
 ssh -i /path/to/key.pem root@hostname "free -m; df -h"
 ```
 
-## Mysql changing data dir from /var/log/mysql to /data/lib/mysql
+## Mysql changing data dir from /var/lib/mysql to /data/lib/mysql
 
 ### Ubuntu distribution
 
