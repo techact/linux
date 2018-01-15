@@ -1,0 +1,4 @@
+convert ppk to pem on ubuntu 14.04
+
+1. apt-get install putty-tools
+2. puttygen test.ppk -O private-openssh -o test.pem
