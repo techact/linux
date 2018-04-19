@@ -147,6 +147,10 @@ http://backreference.org/2010/12/19/print-lines-in-reverse-order/
 | R | Recovery |
 | N | Null |
 
+### Exit codes
+A nrpe script or program must generate an exit code (return code) and description.
+
+### nrpe Exit codes (return codes) 
 * 0 - Service is OK.
 * 1 - Service has a WARNING.
 * 2 - Service is in a CRITICAL status.
