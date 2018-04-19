@@ -147,8 +147,20 @@ N 	Null
 
 | First Header  | Second Header |
 | ------------- | ------------- |
+| R  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| D | Down |
+| U | Up |
+| R | Recovery |
+| F | Flapping |
+| S | Scheduled Downtime |
+
 
 | Attempt | #1 | #2 |
 | :---: | :---: | :---: |
