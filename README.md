@@ -147,14 +147,6 @@ N 	Null
 
 | Syntax |	Definition | 
 | ------------- | ------------- |
-| R  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 | D | Down |
 | U | Up |
 | R | Recovery |
@@ -163,14 +155,6 @@ N 	Null
 
 | Syntax |	Definition | 
 | ------------- | ------------- |
-| R  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 | W | Warning |
 | U | Unknown |
 | C | Critical |
