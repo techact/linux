@@ -125,13 +125,17 @@ http://www.pement.org/awk/awk1line.txt
 http://backreference.org/2010/12/19/print-lines-in-reverse-order/
 ```
 
-| Syntax 	Definition | Host Notifications|
+###Host Notifications
+| Syntax |	Definition | 
+| :---: | :---: | :---: |
 |D 	| Down |
 |U 	| Up |
 |R  | Recovery |
 |F 	| Flapping |
 |S 	| Scheduled Downtime |
-Service Notifications
+
+###Service Notifications
+| Syntax |	Definition | 
 W 	Warning
 U 	Unknown
 C 	Critical
