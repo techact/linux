@@ -126,13 +126,14 @@ http://backreference.org/2010/12/19/print-lines-in-reverse-order/
 ```
 
 ###Host Notifications
+
 | Syntax |	Definition | 
 | :---: | :---: | :---: |
-|D 	| Down |
-|U 	| Up |
-|R  | Recovery |
-|F 	| Flapping |
-|S 	| Scheduled Downtime |
+| D | Down |
+| U | Up |
+| R | Recovery |
+| F | Flapping |
+| S | Scheduled Downtime |
 
 ###Service Notifications
 | Syntax |	Definition | 
