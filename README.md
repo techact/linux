@@ -145,7 +145,7 @@ S 	Scheduled Downtime
 R 	Recovery
 N 	Null
 
-| First Header  | Second Header |
+| Syntax |	Definition | 
 | ------------- | ------------- |
 | R  | Content Cell  |
 | Content Cell  | Content Cell  |
@@ -161,7 +161,21 @@ N 	Null
 | F | Flapping |
 | S | Scheduled Downtime |
 
-
+| Syntax |	Definition | 
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| W | Warning |
+| U | Unknown |
+| C | Critical |
+| F | Flapping |
+| S | Scheduled Downtime |
+| R | Recovery |
+| N | Null |
 | Attempt | #1 | #2 |
 | :---: | :---: | :---: |
 | Seconds | 301 | 283 |
