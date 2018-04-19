@@ -162,6 +162,8 @@ N 	Null
 | S | Scheduled Downtime |
 
 | Syntax |	Definition | 
+| ------------- | ------------- |
+| R  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
@@ -176,6 +178,8 @@ N 	Null
 | S | Scheduled Downtime |
 | R | Recovery |
 | N | Null |
+
+
 | Attempt | #1 | #2 |
 | :---: | :---: | :---: |
 | Seconds | 301 | 283 |
