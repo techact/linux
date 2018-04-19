@@ -147,6 +147,10 @@ http://backreference.org/2010/12/19/print-lines-in-reverse-order/
 | R | Recovery |
 | N | Null |
 
+* 0 - Service is OK.
+* 1 - Service has a WARNING.
+* 2 - Service is in a CRITICAL status.
+* 3 - Service status is UNKNOWN.
 
 | Attempt | #1 | #2 |
 | :---: | :---: | :---: |
