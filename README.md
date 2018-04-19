@@ -139,3 +139,7 @@ F 	Flapping
 S 	Scheduled Downtime
 R 	Recovery
 N 	Null
+
+| Attempt | #1 | #2 |
+| :---: | :---: | :---: |
+| Seconds | 301 | 283 |
