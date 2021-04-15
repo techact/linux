@@ -169,9 +169,9 @@ ssh -L 8081:127.0.0.1:80 -i ec2.pem ubuntu@ec2-ip-address
 ```
 
 Now you can access EC2 web server in your local system using the following url 
-
+```
 http://127.0.0.1:8081/
-
+```
 
 ### Remote Port Forwarding
 
