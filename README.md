@@ -159,3 +159,29 @@ A nrpe script or program must generate an exit code (return code) and descriptio
 | Attempt | #1 | #2 |
 | :---: | :---: | :---: |
 | Seconds | 301 | 283 |
+
+### SSH Tunneling - Port Forwarding (From Local to EC2)
+
+ssh -L local_port_to_access:127.0.0.1:remote_port -i path_to_ssh_private_key username@ipaddress
+
+```
+ssh -L 8081:127.0.0.1:80 -i ec2.pem ubuntu@ec2-ip-address
+```
+
+Now you can access EC2 web server in your local system using the following url 
+
+http://127.0.0.1:8081/
+
+
+### Remote Port Forwarding
+
+ssh -R remote_port:127.0.0.1:local_port_to_listening -i path_to_ssh_private_key ubuntu@ec2-ip-address
+
+```
+ssh -R 8081:127.0.0.1:80 -i ec2.pem ubuntu@ec2-ip-address
+```
+Now you can access your local system in EC2 servr using the following url
+
+```
+curl http://127.0.0.1:8081
+```
